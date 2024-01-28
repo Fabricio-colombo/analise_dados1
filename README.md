@@ -1,34 +1,38 @@
-Análise de Dados: Cancelamento de Clientes
+# Data Analysis: Customer Churn
 
-Este projeto visa analisar dados relacionados ao cancelamento de clientes de uma empresa com mais de 800 mil usuários. O objetivo é compreender os motivos dos cancelamentos e identificar ações eficazes para reduzir essa taxa.
+This project aims to analyze data related to customer churn in a company with over 800 thousand users. The objective is to understand the reasons for cancellations and identify effective actions to reduce this rate.
 
-Arquivos do Projeto:
+## Project Files:
 
-Dados: Cancelamentos
-Notebooks:
-comp.ipynb: Comparações e análises.
-inicial.ipynb: Análise inicial dos dados.
-Dados Analisados:
+- **Data:** Cancellations
+- **Notebooks:**
+  - **comp.ipynb:** Comparisons and analyses.
+  - **inicial.ipynb:** Initial data analysis.
 
-Características dos Clientes:
-Idade, sexo, tempo como cliente, frequência de uso, ligações ao call center, dias de atraso.
-Detalhes do Contrato:
-Tipo de assinatura, duração do contrato, total gasto, meses desde a última interação.
-Variável Alvo:
-cancelou (1.0 - Cancelou, 0.0 - Não Cancelou).
-Principais Resultados:
+## Analyzed Data:
 
-Dados Iniciais:
-881,666 registros.
-Limpeza de Dados:
-Remoção de linhas com valores nulos.
-Distribuição de Cancelamentos:
-Cancelou: 56.7%, Não Cancelou: 43.3%.
-Visualizações:
+**Customer Characteristics:**
+- Age, gender, tenure, usage frequency, call center interactions, days overdue.
 
-Histogramas exploratórios para cada variável em relação à variável alvo (cancelou).
-Observações:
+**Contract Details:**
+- Subscription type, contract duration, total spending, months since the last interaction.
 
-Execute o arquivo sem a extensão .ext.
-Licença disponível no repositório.
-Este projeto fornece insights cruciais para estratégias futuras, destacando padrões e tendências nos dados de cancelamento de clientes.
+**Target Variable:**
+- Churned (1.0 - Churned, 0.0 - Not Churned).
+
+## Key Findings:
+
+- Initial Data: 881,666 records.
+- Data Cleaning: Removal of rows with null values.
+- Churn Distribution: Churned: 56.7%, Not Churned: 43.3%.
+
+## Visualizations:
+
+Exploratory histograms for each variable in relation to the target variable (churn).
+
+## Notes:
+
+- Execute the file without the .ext extension.
+- License available in the repository.
+
+This project provides crucial insights for future strategies, highlighting patterns and trends in customer churn data.
